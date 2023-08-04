@@ -49,7 +49,7 @@ ScrollReveal().reveal('.home-content h1,.about img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p,.about-content', { origin: 'rigth' });
 
 const typed=new Typed('.multiple-text',{
-    strings:['Blockchain Developer','Backend-Developer'], 
+    strings:['Blockchain Developer','Backend Developer'], 
     typeSpeed:100,
     backSpeed:100,
     backDelay:1000,
