@@ -1,0 +1,55 @@
+.skill {
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 8px;
+}
+.level {
+  width: 100%;
+  height: 15px;
+  border-radius: 8px;
+}
+
+.skillbox {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 20px 0;
+}
+.skillbox p {
+  padding: 0;
+  letter-spacing: 1px;
+  margin: 0 0 15px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+}
+.skillbox p:nth-child(2) {
+  float: right;
+  position: relative;
+  top: -25px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #fff;
+}
+.box {
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 25px 20px;
+  background: #120136;
+  box-sizing: border-box;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
